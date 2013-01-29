@@ -42,7 +42,7 @@ typedef void (^AFURLConnectionProgressiveOperationProgressBlock)(NSInteger bytes
 }
 @property (nonatomic, strong) NSString *tempPath;
 @property (assign) long long totalContentLength;
-@property (nonatomic, assign) long long totalBytesReadPerDownload;
+
 @property (assign) long long offsetContentLength;
 @property (nonatomic, copy) AFURLConnectionProgressiveOperationProgressBlock progressiveDownloadProgress;
 @end

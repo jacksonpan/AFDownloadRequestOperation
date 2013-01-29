@@ -29,6 +29,10 @@
  */
 @interface AFDownloadRequestOperation : AFHTTPRequestOperation
 
+//jack add
+@property (nonatomic, assign) long long totalBytesReadPerDownload;
+//jack end
+
 /** 
  A String value that defines the target path or directory.
  
